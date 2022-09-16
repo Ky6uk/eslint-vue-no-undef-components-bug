@@ -1,0 +1,12 @@
+{
+    "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "extraFileExtensions": [".vue"]
+    },
+
+    "extends": ["plugin:vue/base"],
+
+    "rules": {
+        "vue/no-undef-components": "error"
+    }
+}
